@@ -14,7 +14,7 @@ export const Header = () => {
             <Navbar expand="lg" className="bg-dark navbar-dark header" >
                 <Container fluid>
                     <Link to={`/`}>
-                        <Navbar.Brand><img className="img-brand img-fluid" src={require("../Imagenes/brand.png")}/></Navbar.Brand>
+                        <Navbar.Brand><img alt={"img"} className="img-brand img-fluid" src={require("../Imagenes/brand.png")}/></Navbar.Brand>
                     </Link>
 
                     <Navbar.Toggle className="navbar-toggler" aria-controls="navbarScroll" />

@@ -4,7 +4,6 @@ import {useParams} from 'react-router-dom';
 import {AppContext} from '../context/AppContext';
 import Button from "react-bootstrap/Button";
 import {useCart} from "../context/CartContext";
-import {toast} from "react-toastify";
 
 const ProductDetails = () => {
     const { productId } = useParams();
@@ -19,7 +18,7 @@ const ProductDetails = () => {
 
     return (
         <div className="product-details">
-            <img src={require(`../Imagenes/${product.url}`)}/>
+            <img alt={"Img"} src={require(`../Imagenes/${product.url}`)}/>
             <h2 className="product-name">{product.name}</h2>
             <p className="product-cuisine">Descripción: {product.desc}</p>
             <p className="product-rating">Precio: $ {product.price} COP</p>
