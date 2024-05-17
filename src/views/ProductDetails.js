@@ -4,6 +4,7 @@ import {useParams} from 'react-router-dom';
 import {AppContext} from '../context/AppContext';
 import Button from "react-bootstrap/Button";
 import {useCart} from "../context/CartContext";
+import {toast} from "react-toastify";
 
 const ProductDetails = () => {
     const { productId } = useParams();
@@ -26,6 +27,7 @@ const ProductDetails = () => {
                 <Button variant="dark" onClick={() => addItem(product)}>
                     Añadir al carrito
                 </Button>
+
             </div>
         </div>
     );

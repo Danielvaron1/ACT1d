@@ -11,13 +11,13 @@ import { Link } from "react-router-dom";
 export const Header = () => {
     return (
         <div className="ls-header">
-            <Navbar expand="lg" className="bg-dark header" >
+            <Navbar expand="lg" className="bg-dark navbar-dark header" >
                 <Container fluid>
                     <Link to={`/`}>
                         <Navbar.Brand><img className="img-brand img-fluid" src={require("../Imagenes/brand.png")}/></Navbar.Brand>
                     </Link>
 
-                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    <Navbar.Toggle className="navbar-toggler" aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="me-auto my-2 my-lg-0"
@@ -34,11 +34,11 @@ export const Header = () => {
                         <Form className="me-auto d-flex">
                             <Form.Control
                                 type="search"
-                                placeholder="Search"
+                                placeholder="Buscar"
                                 className="me-2 bg-light"
-                                aria-label="Search"
+                                aria-label="Buscar"
                             />
-                            <Button variant="outline-light">Search</Button>
+                            <Button variant="outline-light">Buscar</Button>
                         </Form>
                         <Col xs={2} md={2}>
                             <Link to={"/user"}><Image className="img-icon" src={require("../Imagenes/images.png")} roundedCircle /></Link>
