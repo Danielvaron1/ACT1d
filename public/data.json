@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "url": "Perro.jpg",
+    "name": "Perro",
+    "desc": "Perro hecho a mano en Crochet",
+    "price": 45000
+  },
+  {
+    "id": "2",
+    "url": "Cerdo.jpg",
+    "name": "Cerdo",
+    "desc": "Cerdo hecho a mano en Crochet",
+    "price": 30000
+  },
+  {
+    "id": "3",
+    "url": "Conejo.jpg",
+    "name": "Conejo",
+    "desc": "Conejo hecho a mano en Crochet",
+    "price": 25000
+  },
+  {
+    "id": "4",
+    "url": "Mono.jpg",
+    "name": "Mono",
+    "desc": "Mono hecho a mano en Crochet",
+    "price": 27000
+  },
+  {
+    "id": "5",
+    "url": "Oveja.jpg",
+    "name": "Oveja",
+    "desc": "Oveja hecha a mano en Crochet",
+    "price": 30000
+  },
+  {
+    "id": "6",
+    "url": "Pato.jpg",
+    "name": "Pato",
+    "desc": "Pato hecho a mano en Crochet",
+    "price": 60000
+  },
+  {
+    "id": "7",
+    "url": "Vaca.jpg",
+    "name": "Vaca",
+    "desc": "Vaca hecha a mano en Crochet",
+    "price": 55000
+  }
+]
