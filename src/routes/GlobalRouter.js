@@ -4,9 +4,9 @@ import ProductDetails from '../views/ProductDetails';
 import NotFound from '../views/NotFound';
 import {Overview} from "../views/Overview";
 import {Header} from "../components/Header";
-import UserProfile from "../components/UserProfile";
-import ShoppingCart from "../components/ShoppingCart";
-import About from "../components/About";
+import UserProfile from "../views/UserProfile";
+import ShoppingCart from "../views/ShoppingCart";
+import About from "../views/About";
 
 function GlobalRouter() {
     return (
