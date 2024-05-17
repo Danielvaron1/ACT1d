@@ -27,8 +27,8 @@ export const Header = () => {
                             <Nav.Link><Link className="nav-brand" to={`/`}>
                                 <p className="nav-brand">Inicio</p>
                             </Link></Nav.Link>
-                            <Nav.Link><Link className="nav-brand" to={`/`}>
-                                <p className="nav-brand">Productos</p>
+                            <Nav.Link><Link className="nav-brand" to={`/about`}>
+                                <p className="nav-brand">Nosotros</p>
                             </Link></Nav.Link>
                         </Nav>
                         <Form className="me-auto d-flex">
